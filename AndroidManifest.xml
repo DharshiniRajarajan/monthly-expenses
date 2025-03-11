@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.monthly_expense"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+  	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.monthly_expense.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity android:name=".home" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".login" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".user_reg" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_profile" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_upi_id" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_pay_merchant" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_contact_payment" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_upi_contact_payment" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_bank_transfer" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_pay_bill" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_broad_band_landline" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+
+<activity android:name=".home_pay_bill_payment" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_dth_or_cable" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+
+<activity android:name=".home_electricity" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_emi_payment" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_fast_tag" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_gas_cylinder" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_mobile_recharge" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_water_tax" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_transaction_history" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_view_expense" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+<activity android:name=".home_view_expense_1" android:label="@string/app_name"  android:screenOrientation="portrait" >  </activity>
+
+    </application>
+
+</manifest>

@@ -1,2 +1,1 @@
-# monthly-expenses
-monthly expenses
+# Monthly-expense-tracker-app
